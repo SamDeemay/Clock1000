@@ -1,0 +1,31 @@
+    <!DOCTYPE html>
+<html>
+    <head>
+        <title>ClockThousand</title>
+        <!-- The CSS is not linking correctly because the type attribute should be "text/css" instead of "stylesheet" -->
+        <link href="script.css" rel="stylesheet" type="text/css">
+        <script src="scripy.js"></script>
+    </head>
+    <body>
+        <div class="timeH">
+            <h1 id="tempoOra">
+                    1000
+            </h1>
+        </div>
+        <div class="timeMS">
+            <h2 id="tempoMinSec">
+                00:00
+            </h2>
+        </div>
+        <div class="buttons">
+            <!--
+                <button id="go" onclick="timeCycle()">Go</button>
+                <button id="stop" onclick="stopTime()">Stop</button>
+            -->
+            <button id="play" onclick="play()">Play</button>
+            
+            <button id="save">Save</button>
+        </div>
+        
+    </body>
+</html>
