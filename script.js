@@ -53,7 +53,11 @@ function timeCycle(){
 
 function play(){
     stop = !stop;
-    window.alert(stop);
+    if (stop == true){
+        window.alert("The clock is stopped");
+    }else{
+        window.alert("The clock is running");
+    }
 
     if (stop == false){
         timeCycle();
